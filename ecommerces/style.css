@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#navbar {
+  background-color: aliceblue;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.img {
+  height: 80px;
+  width: 80px;
+  padding: 1rem;
+}
+#navbar i {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  background: url("/ecommerces/img/treaking-place.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  position: relative;
+}
+
+#starting-line {
+  font-size: 2.8rem;
+  color: white;
+  width: 82%;
+  padding-left: 2rem;
+  /* background-color: aqua; */
+  position: absolute;
+  top: 50%;
+  left: 2%;
+  transform: translate(0%, -50%);
+}
