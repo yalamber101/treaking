@@ -106,6 +106,7 @@ body {
 }
 .page1 {
   display: flex;
+  /* background-color: aqua; */
 }
 .right {
   width: 30%;
@@ -116,5 +117,302 @@ body {
 .right a {
   color: black;
   padding: 1rem;
-  /* font-size: 1rem; */
+  /* font-size: 5rem; */
+}
+.page2 {
+  display: flex;
+  padding: 2rem;
+}
+.img1 {
+  flex: 1;
+}
+.mountain {
+  width: 250px;
+  height: 250px;
+}
+.img2 {
+  flex: 1;
+}
+.grassland {
+  width: 250px;
+  height: 250px;
+}
+.img3 {
+  flex: 1;
+}
+.hike {
+  width: 250px;
+  height: 250px;
+}
+#page3 {
+  display: flex;
+}
+#container1 {
+  width: 100%;
+  height: 50%;
+  background-color: brown;
+}
+#container2 {
+  width: 100%;
+  height: 50%;
+  background-color: aqua;
+}
+#page3 {
+  height: 100%;
+  width: 100%;
+  background: url(img/hike-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.left1 {
+  /* background-color: red; */
+  width: 50%;
+  height: 100%;
+}
+.right1 {
+  /* background-color: aqua; */
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  color: white;
+  text-transform: capitalize;
+}
+.right1 h1 {
+  font-size: 3.5rem;
+}
+.inside-content {
+  width: 50%;
+}
+.page4 {
+  width: 100%;
+}
+.design1 {
+  height: 40vh;
+  width: 100%;
+  /* background-color: aqua; */
+  padding: 2rem;
+  position: relative;
+}
+.circle {
+  width: 200px;
+  height: 200px;
+  background-color: skyblue;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  z-index: 1;
+}
+.design-content {
+  position: absolute;
+  z-index: 100;
+  left: 8%;
+  width: 50%;
+  /* background-color: green; */
+}
+.design-content h1 {
+  font-size: 4.5rem;
+  text-transform: capitalize;
+}
+.photo-section {
+  height: 100vh;
+  width: 100%;
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  /* background-color: green; */
+}
+.photo {
+  height: 100%;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  overflow: hidden;
+}
+.left-img-section {
+  flex: 1;
+  /* background-color: yellow; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.img-1 {
+  height: 50%;
+  /* background-color: yellowgreen; */
+}
+.img-2 {
+  height: 50%;
+  /* background-color: cornflowerblue; */
+}
+.center-img-section {
+  flex: 1;
+  /* background-color: crimson; */
+  display: flex;
+  flex-direction: column;
+}
+.img-3 {
+  height: calc(100% / 3); /* ✅ Correct */
+  /* background-color: firebrick; */
+}
+.img-4 {
+  height: calc(100% / 3); /* ✅ Correct */
+  /* background-color: seagreen; */
+}
+.img-5 {
+  height: calc(100% / 3); /* ✅ Correct */
+  /* background-color: purple; */
+}
+.right-img-section {
+  flex: 1;
+  /* background-color: darkorange; */
+  display: flex;
+  flex-direction: column;
+}
+
+.img-6 {
+  height: 50%;
+  /* background-color: yellowgreen; */
+}
+.img-7 {
+  height: 50%;
+  /* background-color: pink; */
+}
+.photo img {
+  padding: 5px;
+}
+
+.road {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.waterfall {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.hill {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.sea {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.mountain-1 {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.jungle {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.forest {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.page5 {
+  height: 100%;
+  width: 100%s;
+  background: url("/ecommerces/img/page5.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+}
+.page5-left {
+  height: 100%;
+  width: 50%;
+  /* background-color: yellow; */
+}
+.page5-right {
+  /* background-color: aqua; */
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: end;
+  gap: 2rem;
+  padding: 2rem;
+  color: white;
+  text-transform: capitalize;
+}
+.page5-right h1 {
+  font-size: 5rem;
+}
+.page6 {
+  width: 100%;
+  height: 80%;
+  display: flex;
+}
+.content-container {
+  flex: 1;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  gap: 50px;
+  padding: 30px 10px;
+  text-transform: capitalize;
+}
+.a-tag {
+  width: 100%;
+  display: flex;
+  /* background-color: brown; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+.a-tag a {
+  color: black;
+  text-decoration: none;
+}
+.circle2 {
+  height: 70px;
+  width: 70px;
+  background-color: skyblue;
+  border-radius: 50%;
+}
+.icon-container {
+  flex: 1;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+}
+.photo-container {
+  flex: 1;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.profile {
+  height: 300px;
+  width: 300px;
+  background-color: brown;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profile img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
